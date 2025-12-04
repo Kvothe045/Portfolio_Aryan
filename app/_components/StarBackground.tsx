@@ -7,7 +7,7 @@ import { Points, PointMaterial } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 
 const StarField = (props: any) => {
-  const ref: any = useRef();
+  const ref: any = useRef(null);
 
   // FIX: Switched from useState to useMemo.
   // This calculates the positions exactly once and caches them, 
