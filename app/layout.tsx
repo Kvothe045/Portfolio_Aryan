@@ -1,20 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Rajdhani, Space_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const rajdhani = Rajdhani({ 
+  subsets: ["latin"], 
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-rajdhani"
 });
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const spaceMono = Space_Mono({ 
+  subsets: ["latin"], 
+  weight: ["400", "700"],
+  variable: "--font-space-mono"
 });
 
 export const metadata: Metadata = {
-  title: "Aryan Srivastav",
-  description: "Portfolio-Aryan Srivastav",
+  title: "Aryan Srivastav | Portfolio",
+  description: "Full Stack Developer & CP Specialist",
 };
 
 export default function RootLayout({
@@ -24,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${inter.variable} ${rajdhani.variable} ${spaceMono.variable} bg-black font-sans`}>
         {children}
       </body>
     </html>
