@@ -18,11 +18,38 @@ export const profile = {
 };
 
 export const catchphrases = [
-  "Compiling Dreams into Reality...",
-  "Building the Web 3.0 Future...",
+  "Astral Commit: Code Signed with Stardust ✨",
+  "Launching Builds at Lightspeed...",
+  "Fueling Rockets with Algorithms...",
+  "Black Hole of Bugs — Let’s Debug!",
+  "Turning Stardust into Software ✨",
   "Zero Gravity, Infinite Loops...",
-  "Status: Ready to Deploy."
+  "Mapping the Constellations of Code...",
+  "Deploying to the Final Frontier...",
+  "Stardust in the Cloud ⛅ => Deploying Magic",
+  "Rocket Science? Nah, Just C++ 😎",
+  "Warp Speed Compilation Activated...",
+  "From Stardust to Startups...",
+  "Parallel Universes, Multi-threaded Minds...",
+  "Hello World from the Milky Way 🌌",
+  "Space-Time Complexity: Optimizing...",
+  "Error 404: Gravity Not Found...",
+  "Galactic Codebase: Always Expanding...",
+  "Quantum Code Loading...",
+  "Powered by Coffee and Stardust ✨",
+  "One Small Commit for a Dev, One Giant Deploy for Production",
+  "Orbiting Around Clean Architecture...",
+  "Pushing Code Beyond the Event Horizon...",
+  "Stars, Syntax, Success...",
+  "Galactic Git Push Incoming...",
+  "Milky Way Mode Enabled...",
+  "Deploying Magic at Light Speed...",
+  "Status: Ready to Deploy.",
+  "Compiling Dreams into Reality...",
+  "Space X Code: Lift Off in 3..2..1...",
+  "Building the Web 3.0 Future..."
 ];
+
 
 export const careerHistory = [
   {

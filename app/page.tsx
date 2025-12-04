@@ -1,5 +1,5 @@
 // app/page.tsx
-"use client"; // Must be client component for the loader state
+"use client";
 
 import { useState } from "react";
 import StarBackground from "./_components/StarBackground";
@@ -11,8 +11,9 @@ import Honors from "./_components/Honors";
 import ContactDeck from "./_components/ContactDeck";
 import SpacePlayer from "./_components/SpacePlayer";
 import Typewriter from "./_components/Typewriter";
-import WarpLoader from "./_components/WarpLoader"; // Import Loader
-import CometCursor from "./_components/CometCursor"; // Import Cursor
+import WarpLoader from "./_components/WarpLoader";
+// 1. IMPORT SMOKE CURSOR
+import SmokeCursor from "./_components/SmokeCursor"; 
 import { profile, projects, catchphrases } from "./_data/portfolioData";
 import { ChevronDown, Rocket } from "lucide-react";
 
@@ -21,14 +22,14 @@ export default function Home() {
 
   return (
     <>
-      {/* SHOW LOADER IF LOADING IS TRUE */}
       {loading ? (
         <WarpLoader onComplete={() => setLoading(false)} />
       ) : (
-        // SHOW CONTENT WHEN LOADED
         <main className="min-h-screen text-white selection:bg-cyan-500/30 overflow-x-hidden relative animate-fade-in-up">
           
-          <CometCursor />
+          {/* 2. REPLACE COMET WITH SMOKE */}
+          <SmokeCursor />
+          
           <SpacePlayer />
           <StarBackground />
           
