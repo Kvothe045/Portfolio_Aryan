@@ -6,7 +6,7 @@ export const profile = {
   location: "Varanasi, India",
   email: "aryan45srivastav@gmail.com",
   phone: "+91-9795471231",
-  resumeLink: "https://drive.google.com/drive/u/0/folders/1zJ1-jOdVRpMlzr0ZDrUIq6YF2RC4ddL9",
+  resumeLink: "https://drive.google.com/file/d/1iho55u3qE0ORsXZl_tQ0tSlG2PajOZgT/view?usp=sharing",
   // ADD YOUR IMAGE PATH HERE:
   profileImage: "/profile.png", 
   socials: {
