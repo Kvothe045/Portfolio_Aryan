@@ -1,3 +1,4 @@
+// app/_components/StarBackground.tsx
 "use client";
 
 import React, { useRef, useMemo, Suspense } from "react";
@@ -9,9 +10,6 @@ import * as random from "maath/random/dist/maath-random.esm";
 const StarField = (props: any) => {
   const ref: any = useRef(null);
 
-  // FIX: Switched from useState to useMemo.
-  // This calculates the positions exactly once and caches them, 
-  // preventing the "NaN" error and the TypeScript argument error.
   const sphere = useMemo(() => {
     return random.inSphere(new Float32Array(5000), { radius: 1.2 });
   }, []);
@@ -28,7 +26,7 @@ const StarField = (props: any) => {
       <Points ref={ref} positions={sphere} stride={3} frustumCulled={false} {...props}>
         <PointMaterial
           transparent
-          color="#fff" // Changed to white for better contrast in deep space
+          color="#fff" 
           size={0.002}
           sizeAttenuation={true}
           depthWrite={false}
@@ -40,7 +38,9 @@ const StarField = (props: any) => {
 
 const StarBackground = () => {
   return (
-    <div className="fixed top-0 left-0 w-full h-full -z-50 bg-black">
+    // Changed: Removed 'bg-black' to prevent opacity stacking.
+    // Changed: Added pointer-events-none to ensure it never blocks clicks.
+    <div className="fixed top-0 left-0 w-full h-full -z-50 pointer-events-none bg-black"> 
       <Canvas camera={{ position: [0, 0, 1] }}>
         <Suspense fallback={null}>
           <StarField />
