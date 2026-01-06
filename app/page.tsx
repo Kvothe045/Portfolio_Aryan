@@ -95,8 +95,8 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 <SocialCard platform="LinkedIn" handle="Aryan Srivastav" link={profile.socials.linkedin} stats="Connect" color="blue" />
                 <SocialCard platform="GitHub" handle="kvothe045" link={profile.socials.github} stats="View Code" color="gray" />
-                <SocialCard platform="LeetCode" handle="aryansrivastav106" link={profile.socials.leetcode} stats="500+ Solved" color="yellow" />
-                <SocialCard platform="Codeforces" handle="Aryan_Sriv45" link={profile.socials.codeforces} stats="1400+ Rating" color="red" />
+                <SocialCard platform="LeetCode" handle="tree_bead" link={profile.socials.leetcode} stats="300+ Solved" color="yellow" />
+                <SocialCard platform="Codeforces" handle="treebeard" link={profile.socials.codeforces} stats="1400+ Rating" color="red" />
               </div>
             </section>
 
