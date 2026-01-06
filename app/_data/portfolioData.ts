@@ -12,7 +12,7 @@ export const profile = {
   socials: {
     linkedin: "https://www.linkedin.com/in/aryansrivastav",
     github: "https://github.com/kvothe045",
-    leetcode: "https://leetcode.com/u/treebead/",
+    leetcode: "https://leetcode.com/u/tree_bead/",
     codeforces: "https://codeforces.com/profile/treebeard"
   }
 };
@@ -78,7 +78,7 @@ export const careerHistory = [
     title: "Bachelor of Engineering (CSE)",
     org: "Chandigarh University",
     date: "2023 – Present",
-    desc: "CGPA: 8.34 / 10.00. Punjab, India.",
+    desc: "CGPA: 8.44 / 10.00. Punjab, India.",
     link: null
   },
   {
