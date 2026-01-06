@@ -10,10 +10,10 @@ export const profile = {
   // ADD YOUR IMAGE PATH HERE:
   profileImage: "/profile.png", 
   socials: {
-    linkedin: "https://www.linkedin.com/in/aryan-srivastav-550931200",
+    linkedin: "https://www.linkedin.com/in/aryansrivastav",
     github: "https://github.com/kvothe045",
-    leetcode: "https://leetcode.com/u/aryansrivastav106/",
-    codeforces: "https://codeforces.com/profile/Aryan_Sriv45"
+    leetcode: "https://leetcode.com/u/treebead/",
+    codeforces: "https://codeforces.com/profile/treebeard"
   }
 };
 
